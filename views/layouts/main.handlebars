@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="img/icons/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="img/icons/favicon.png" />
+	
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/gallery.css">
+	<link rel="stylesheet" href="css/fullcalendar.css">
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext'>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jssor.slider-26.6.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>  
+	
+	<script type="text/javascript" src="js/moment.min.js"></script>
+	<script type="text/javascript" src="js/fullcalendar.js"></script>
+	<script type="text/javascript" src="js/gcal.js"></script>
+	<script type="text/javascript" src="js/calendar.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('.gallery a').lightBox();
+		});
+	</script>
+	
+	<title>Cozy Country Bungalow</title>
+</head>
+<body id="top" class="size-1140">
+	{{>header}}
+	{{{body}}}
+	{{>footer}}
+	<script type="text/javascript" src="js/responsee.js"></script> 
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>   
+    <script type="text/javascript" src="js/client.js"></script>
+	{{#if isHome}}
+		<script type="text/javascript" src="js/home.js"></script>		
+	{{/if}}
+</body>
+</html>

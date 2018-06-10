@@ -1,0 +1,139 @@
+<header>
+   <nav>
+      <div class="line">
+         <div class="top-nav">              
+            <div class="top-nav s-12 l-5">
+               <ul class="right top-ul chevron">
+                  <li><a href="/">Home</a>
+                  </li>
+                  <li><a href="calendar">Reservation Calendar</a>
+                  </li>
+				  <li><a href="contact">Contact Us</a>
+				  </li>
+               </ul>
+            </div>
+            <ul class="s-12 l-2">
+               <li class="logo hide-s hide-m">
+                  <a href="gallery">PHOTO <br /><strong>GALLERY</strong></a>
+               </li>
+            </ul>
+            <div class="top-nav s-12 l-5">
+               <ul class="top-ul chevron">
+                  <li>
+                     <a class="dropdown-title" href="javascript:void(0)">Nearby Attractions</a>			    
+                     <ul>
+                        <li>
+                           <a class="dropdown-title" href="javascript:void(0)">Portland</a>				  
+                           <ul>
+                              <li><a href="https://www.portlandoregon.gov/parks/finder/index.cfm?action=viewpark&propertyid=156" target="_blank">Waterfront Park</a>
+                              </li>
+							  <li><a href="https://lansugarden.org/" target="_blank">Lan Su Chinese Gardens</a>
+                              </li>
+                              <li><a href="http://www.oregon.com/attractions/multnomah_falls" target="_blank">Multnomah Falls</a>
+                              </li>
+							  <li><a href="https://omsi.edu/" target="_blank">OMSI</a>
+                              </li>
+							  <li><a href="https://www.oregonzoo.org/" target="_blank">The Portland Zoo</a>
+                              </li>
+                           </ul>
+                        </li>
+						<li><a href="http://oregon.com/recreation/hike-silver-falls-state-park" target="_blank">Silver Creek Falls</a>
+                        </li>
+						<li><a href="https://travelportland.com/collection/columbia-river-gorge/" target="_blank">Columbia Gorge</a>
+                        </li>
+						<li><a href="https://traveloregon.com/things-to-do/destinations/mountains/mt-hood/" target="_blank">Mt. Hood</a>
+                        </li>
+                        <li><a href="http://www.oregongarden.org/" target="_blank">The Oregon Garden</a>
+                        </li>
+						<li><a href="https://nps.gov/crla/index.htm" target="_blank">Crater Lake</a>
+                        </li>
+						<li><a href="https://aquarium.org/" target="_blank">Oregon Coast Aquarium</a>
+                        </li>
+						<li><a href="http://www.sealioncaves.com/" target="_blank">Sea Lion Caves</a>
+                        </li>
+						<li><a href="https://smithrock.com/#intro" target="_blank">Smith Rock</a>
+                        </li>
+						<li><a href="https://nps.gov/joda/index.htm" target="_blank">John Day Fossil Beds</a>
+                        </li>
+						<li><a href="https://wildlifesafari.net/" target="_blank">Wildlife Safari</a>
+                        </li>
+						<li><a href="http://visitmckenzieriver.com/oregon/item/tamolitch-falls-tamolitch-blue-pool/" target="_blank">Blue Pool</a>
+                        </li>
+                     </ul>
+                  </li>
+				  <li><a href="reviews">Reviews</a><li>
+                  </li>
+				  <li><a href="about">About Us</a><li>
+                  </li>
+               </ul> 
+            </div>
+         </div>
+      </div>
+   </nav>
+</header>
+<section>
+{{#if isHome}}	
+   <!-- CAROUSEL -->  	
+   <div id="carousel">
+      <div id="owl-demo" class="owl-carousel owl-theme">
+         <div class="item">
+            <img src="img/carousel1.jpg" alt="">      
+            <div class="carousel-text">
+               <div class="line">
+                  <div class="s-12 l-9">
+                     <h2>Cozy Country Bungalow</h2>
+                  </div>
+                  <div class="s-12 l-9">
+                     <p>Come stay and relax at this quiet, tranquil, 10-acre farm</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <img src="img/carousel2.jpg" alt="">      
+            <div class="carousel-text">
+               <div class="line">
+                  <div class="s-12 l-9">
+                     <h2>Lots of Scenic Land to Explore</h2>
+                  </div>
+                  <div class="s-12 l-9">
+                     <p>Enjoy a campfire in the woods; stroll across the bridge near the pond!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <img src="img/carousel3.jpg" alt="">      
+            <div class="carousel-text">
+               <div class="line">
+                  <div class="s-12 l-9">
+                     <h2>Fully Furnished Studio Apartment</h2>
+                  </div>
+                  <div class="s-12 l-9">
+                     <p>Includes a complete kitchen, WIFI internet, and 40" Smart TV with Netflix</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+		 <div class="item">
+            <img src="img/carousel4.jpg" alt="">      
+            <div class="carousel-text">
+               <div class="line">
+                  <div class="s-12 l-9">
+                     <h2>Private Covered Patio</h2>
+                  </div>
+                  <div class="s-12 l-9">
+                     <p>Text goes here</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+{{else}}
+   <div id="head">
+      <div class="line">
+         <h1>{{page_title}}</h1>
+      </div>
+   </div>	
+{{/if}}
